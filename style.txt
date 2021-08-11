@@ -1,0 +1,67 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+   
+    background-image:url("https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxvdmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.main{
+    width:100vw;
+    height:100vh;
+    background:blanchedalmon;
+    display:grid;
+    place-items:center;
+
+}
+.calculator{
+    width:40rem;
+    height:30rem;
+    background:#FF2626;
+    border-radius: .5rem;
+    box-shadow: 0 1.0rem .5rem 0.2rem black ;
+}
+h1{
+    text-align:center;
+    font-weight: bold;
+    margin-top:1.0rem;
+    
+}
+:root{
+--br:50%;
+
+}
+#male{
+    margin-top: 1.5rem;
+border-radius:var(--br);
+float:left;
+margin-left: 2rem;
+}
+#female{
+    margin-top: 1.5rem;
+border-radius: var(--br);
+float:right;
+margin-right: 3rem;
+}
+
+.button button{
+    width:20rem ;
+    height:3rem;
+     border-radius: .5rem;
+     margin-top:1rem;
+     margin-left: 8rem;
+     font-weight: bold;
+     box-shadow: 0 .2rem .1rem 0rem black ;
+     background-color: green;
+     
+}
+#Random{
+    w
+}

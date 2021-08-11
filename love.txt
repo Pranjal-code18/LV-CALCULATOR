@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>
+        LOVE CALCULATOR
+    </title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="calculator">
+            <h1>LOVE CALCULATOR</h1>
+            <img id="male"
+                src="https://tse1.mm.bing.net/th?id=OIP.__5ZV_UmXzeYkXkbAymslwHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121"
+                alt="">
+            <img id="female" src="https://tse4.mm.bing.net/th?id=OIP.fuKBtO6shPncfQ9NSUZc0gHaHa&pid=Api&P=0&w=121&h=121"
+                alt="">
+            <form>
+                <div><input style="float:left; margin-top:1.0rem; margin-left:1.0rem; height:3rem;text-align: center;"
+                        type="name" placeholder="Name">
+                    <input style="float:right; margin-top:1.0rem; margin-right:1.0rem;height:3rem;text-align: center;"
+                        type="name" placeholder="Name">
+                </div>
+            </form>
+            <div class="button">
+                <button onclick="myfun()">Submit</button>
+            </div>
+            <h1>GOD BLESS TO YOUR RELATIONSHIP</h1>
+
+        </div>
+    </div>
+    <script>
+
+        function myfun() {
+            alert(Math.floor(Math.random() * 100));
+        }
+    </script>
+</body>
+
+</html>
